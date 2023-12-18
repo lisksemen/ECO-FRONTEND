@@ -66,6 +66,7 @@ function CreateObjectForm({ onObjectCreated }) {
                             <input
                                 type="text"
                                 name="name"
+                                placeholder={"Name"}
                                 value={formData.name}
                                 onChange={handleChange}
                             />
@@ -76,6 +77,7 @@ function CreateObjectForm({ onObjectCreated }) {
                             <input
                                 type="text"
                                 name="description"
+                                placeholder={"Description"}
                                 value={formData.description}
                                 onChange={handleChange}
                             />

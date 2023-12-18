@@ -105,6 +105,7 @@ function CreatePollutantForm({ onPollutantCreated }) {
                             <input
                                 type="text"
                                 name="name"
+                                placeholder={"Name"}
                                 value={formData.name}
                                 onChange={handleChange}
                             />
@@ -115,6 +116,7 @@ function CreatePollutantForm({ onPollutantCreated }) {
                             <input
                                 type="number"
                                 name="tlv"
+                                placeholder={"Tlv"}
                                 value={formData.tlv}
                                 onChange={handleChange}
                             />
@@ -125,6 +127,7 @@ function CreatePollutantForm({ onPollutantCreated }) {
                             <input
                                 type="number"
                                 name="elv"
+                                placeholder={"Elv"}
                                 value={formData.elv}
                                 onChange={handleChange}
                             />
@@ -135,6 +138,7 @@ function CreatePollutantForm({ onPollutantCreated }) {
                             <input
                                 type="number"
                                 name="mfr"
+                                placeholder={"Mfr"}
                                 value={formData.mfr}
                                 onChange={handleChange}
                             />
@@ -145,6 +149,7 @@ function CreatePollutantForm({ onPollutantCreated }) {
                             <input
                                 type="number"
                                 name="rfc"
+                                placeholder={"RFC"}
                                 value={formData.rfc}
                                 onChange={handleChange}
                             />
@@ -155,6 +160,7 @@ function CreatePollutantForm({ onPollutantCreated }) {
                             <input
                                 type="number"
                                 name="sf"
+                                placeholder={"SF"}
                                 value={formData.sf}
                                 onChange={handleChange}
                             />
@@ -181,6 +187,7 @@ function CreatePollutantForm({ onPollutantCreated }) {
                             <input
                                 type="number"
                                 name="taxRate"
+                                placeholder={"Tax rate"}
                                 value={formData.taxRate}
                                 onChange={handleChange}
                             />

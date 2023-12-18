@@ -92,6 +92,7 @@ function CreateEmergencyForm({ onCreate }) {
                         type="number"
                         min="0"
                         step="1"
+                        placeholder={"Dead people count"}
                         name="peopleCountDead"
                         value={formData.peopleCountDead}
                         onChange={handleChange}
@@ -103,6 +104,7 @@ function CreateEmergencyForm({ onCreate }) {
                     <input
                         type="number"
                         min="0" step="1"
+                        placeholder={"Strong injury people count"}
                         name="peopleCountStrongInjury"
                         value={formData.peopleCountStrongInjury}
                         onChange={handleChange}
@@ -114,6 +116,7 @@ function CreateEmergencyForm({ onCreate }) {
                     <input
                         type="number"
                         min="0" step="1"
+                        placeholder={"Fatal injury people count"}
                         name="peopleCountFatalInjury"
                         value={formData.peopleCountFatalInjury}
                         onChange={handleChange}
@@ -125,6 +128,7 @@ function CreateEmergencyForm({ onCreate }) {
                     <input
                         type="number"
                         min="0" step="1"
+                        placeholder={"Light injury people count"}
                         name="peopleCountLightInjury"
                         value={formData.peopleCountLightInjury}
                         onChange={handleChange}
@@ -136,6 +140,7 @@ function CreateEmergencyForm({ onCreate }) {
                     <input
                         type="text"
                         name="objectName"
+                        placeholder={"Object name"}
                         value={formData.objectName}
                         onChange={handleChange}
                     />
@@ -167,6 +172,7 @@ function CreateEmergencyForm({ onCreate }) {
                     <input
                         type="number"
                         name="mass"
+                        placeholder={"Pollution mass"}
                         value={formData.mass}
                         onChange={handleChange}
                     />
@@ -177,6 +183,7 @@ function CreateEmergencyForm({ onCreate }) {
                     <input
                         type="number"
                         name="concentration"
+                        placeholder={"Concentration"}
                         value={formData.concentration}
                         onChange={handleChange}
                     />

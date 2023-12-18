@@ -101,6 +101,7 @@ function CreatePollutionForm({ onPollutionCreated }) {
                             <input
                                 type="text"
                                 name="objectName"
+                                placeholder={"Object name"}
                                 value={formData.objectName}
                                 onChange={handleChange}
                             />
@@ -127,6 +128,7 @@ function CreatePollutionForm({ onPollutionCreated }) {
                             <input
                                 type="number"
                                 name="year"
+                                placeholder={"Year"}
                                 value={formData.year}
                                 onChange={handleChange}
                             />
@@ -138,6 +140,7 @@ function CreatePollutionForm({ onPollutionCreated }) {
                                 step=".0001"
                                 type="number"
                                 name="valuePollution"
+                                placeholder={"Value"}
                                 value={formData.valuePollution}
                                 onChange={handleChange}
                             />
@@ -149,6 +152,7 @@ function CreatePollutionForm({ onPollutionCreated }) {
                                 step=".0001"
                                 type="number"
                                 name="pollutionConcentration"
+                                placeholder={"Concentration"}
                                 value={formData.pollutionConcentration}
                                 onChange={handleChange}
                             />
